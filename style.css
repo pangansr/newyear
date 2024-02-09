@@ -13,7 +13,7 @@ body{
     width: 100vw;
     height: 100vh;
     position: relative;
-    display: flex;
+    display: flex;  
     justify-content: center;
     align-items: center;
 }
@@ -28,7 +28,7 @@ body{
     line-height: 80px;
 }
 .wrapper h1{
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Lobster', cursive;
     letter-spacing: 1px;
     color: #fff;
@@ -37,13 +37,13 @@ body{
     position: relative;
     display: flex;
     line-height: normal;
-    width: 530px;
+    width: 60%;
     justify-content: space-between;
 }
 .box-time .time{
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 80%;
+    height: 80% ;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1502,16 +1502,16 @@ body{
 }
 .slider3 i{
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 10%;
+    right: 10%;
     color: #fff;
-    font-size: 30px;
+    font-size: 10%;
     cursor: pointer;
 }
 .box-content{
     position: relative;
-    width: 800px;
-    height: 500px;
+    width: 50%;
+    height: 70%;
     display: flex;
     overflow: hidden;
     background: linear-gradient(360deg,rgb(206, 19, 53) 0%, rgb(199, 20, 53) 100%);
@@ -1520,7 +1520,7 @@ body{
     position: relative;
     width: 50%;
     height: 100%;
-    border-right: 1px solid rgb(0, 0, 0, 0.2);
+    border-right: 1% solid rgb(0, 0, 0, 0.2);
     box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
     overflow: hidden;
     display: flex;
