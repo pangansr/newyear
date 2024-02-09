@@ -741,7 +741,7 @@ body{
     position: absolute;
     top: 100px;
     left: 30px;
-    width: 160px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -772,8 +772,6 @@ body{
 .box-slider-img2 .slider-img2::before{
     position: absolute;
     content: '';
-    width: 100px;
-    height: 100px;
     background-image: radial-gradient(circle farthest-corner at center, #373737 0%, #5d0000 100%);
     top: 50%;
     left: 50%;
@@ -1141,8 +1139,8 @@ body{
 }
 .box-rim{
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 0%;
     top: 0;
     left: 0;
     z-index: 10;
@@ -1364,8 +1362,8 @@ body{
 }
 .slider2 .rhombus:nth-child(1){
     position: absolute;
-    width: 396px;
-    height: 370px;
+    width: 33%;
+    height: 50%;
     background: #fff;
     transform: rotate(-35deg) skewX(20deg) scale(0);
     border: 4px solid rgb(255, 255, 0);
@@ -1375,8 +1373,8 @@ body{
 }
 .slider2 .rhombus:nth-child(2){
     position: absolute;
-    width: 310px;
-    height: 284px;
+    width: 33%;
+    height: 50%;
     background: #fff;
     transform: rotate(-35deg) skewX(20deg) scale(0);
     border: 4px solid rgb(255, 255, 0);
@@ -1511,7 +1509,7 @@ body{
 .box-content{
     position: relative;
     width: 50%;
-    height: 70%;
+    height: 500px;
     display: flex;
     overflow: hidden;
     background: linear-gradient(360deg,rgb(206, 19, 53) 0%, rgb(199, 20, 53) 100%);
@@ -1520,7 +1518,7 @@ body{
     position: relative;
     width: 50%;
     height: 100%;
-    border-right: 1% solid rgb(0, 0, 0, 0.2);
+    border-right: 1px solid rgb(0, 0, 0, 0.2);
     box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
     overflow: hidden;
     display: flex;
